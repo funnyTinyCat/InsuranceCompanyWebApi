@@ -1,12 +1,14 @@
 ﻿using InsuranceCompany.BL.Interfaces;
 using InsuranceCompany.Model.Entities;
 using InsuranceCompany.Model.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InsuranceCompany.ApiService.Controllers
 {
+    [Authorize(Roles = "Admin, User")]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController(IProductService productService) : ControllerBase

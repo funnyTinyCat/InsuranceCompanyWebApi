@@ -1,6 +1,8 @@
-using Blazored.Toast;
+//using Blazored.Toast;
 using InsuranceCompany.Web;
+using InsuranceCompany.Web.Authentication;
 using InsuranceCompany.Web.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +13,11 @@ builder.AddServiceDefaults();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.AddAuthentication();
+builder.Services.AddCascadingAuthenticationState();
+
 builder.Services.AddOutputCache();
+builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();
 //builder.Services.AddBlazoredToast();
 
 builder.Services.AddHttpClient<ApiClient>(client =>
@@ -33,6 +39,9 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAntiforgery();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseOutputCache();
 

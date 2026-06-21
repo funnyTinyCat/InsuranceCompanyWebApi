@@ -1,4 +1,4 @@
-﻿using Blazored.Toast.Services;
+﻿//using Blazored.Toast.Services;
 using InsuranceCompany.Model.Entities;
 using InsuranceCompany.Model.Models;
 using Microsoft.AspNetCore.Components;
@@ -13,8 +13,8 @@ namespace InsuranceCompany.Web.Components.Pages.Product
         public ProductModel Model { get; set; } = new();
         [Inject]
         private ApiClient ApiClient { get; set; }
-        [Inject]
-        private IToastService ToastService { get; set; }
+        //[Inject]
+        //private IToastService ToastService { get; set; }
         [Inject]
         NavigationManager NavigationManager { get; set; }
 
@@ -36,7 +36,7 @@ namespace InsuranceCompany.Web.Components.Pages.Product
 
             if (res != null && res.Success)
             {
-                ToastService.ShowSuccess("Update product successfully");
+                //ToastService.ShowSuccess("Update product successfully");
                 NavigationManager.NavigateTo("/products");
             }
         }

@@ -117,3 +117,5 @@ C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.ApiService\bin\Debug\n
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.ApiService\bin\Debug\net9.0\InsuranceCompany.BL.pdb
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.ApiService\bin\Debug\net9.0\InsuranceCompany.Model.pdb
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.ApiService\bin\Debug\net9.0\InsuranceCompany.Database.pdb
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.ApiService\obj\Debug\net9.0\InsuranceCompany.ApiService.sourcelink.json
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.ApiService\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

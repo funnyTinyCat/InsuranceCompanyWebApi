@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "InsuranceCompany.ApiService.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "InsuranceCompany.Model.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "InsuranceCompany.Model.Models.LoginResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "InsuranceCompany.ApiService.Controllers.ProductsController",
     "Method": "GetProductsAsync",
     "RelativePath": "api/Products",

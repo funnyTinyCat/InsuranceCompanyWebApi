@@ -126,3 +126,12 @@ C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\I
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\Blazored.Toast.dll
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\obj\Debug\net9.0\compressed\4iaufwv603-4w9yqwxit0.gz
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\obj\Debug\net9.0\compressed\svamoqiswe-rh58jls5k7.gz
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\obj\Debug\net9.0\InsuranceCompany.Web.sourcelink.json
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Web\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll

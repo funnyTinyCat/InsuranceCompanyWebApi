@@ -15,3 +15,4 @@ C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.BL\obj\Debug\net9.0\In
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.BL\obj\Debug\net9.0\refint\InsuranceCompany.BL.dll
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.BL\obj\Debug\net9.0\InsuranceCompany.BL.pdb
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.BL\obj\Debug\net9.0\ref\InsuranceCompany.BL.dll
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.BL\obj\Debug\net9.0\InsuranceCompany.BL.sourcelink.json

@@ -9,3 +9,4 @@ C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Models\obj\Debug\net9.
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Models\obj\Debug\net9.0\refint\InsuranceCompany.Model.dll
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Models\obj\Debug\net9.0\InsuranceCompany.Model.pdb
 C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Models\obj\Debug\net9.0\ref\InsuranceCompany.Model.dll
+C:\Users\macak\projects\InsuranceCompany\InsuranceCompany.Models\obj\Debug\net9.0\InsuranceCompany.Model.sourcelink.json

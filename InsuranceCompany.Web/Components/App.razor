@@ -11,12 +11,13 @@
     <ImportMap />
     <link rel="icon" type="image/png" href="favicon.png" />
     @* <link href="_content/Blazored.Toast/blazored-toast.min.css" rel="stylesheet" /> *@
-
-    <HeadOutlet @rendermode="InteractiveServer" />
+    @* @rendermode="InteractiveServer" *@
+    <HeadOutlet @rendermode="new InteractiveServerRenderMode(prerender: false)" />
 </head>
 
 <body>
-    <Routes @rendermode="InteractiveServer" />
+    @* @rendermode="InteractiveServer" *@
+    <Routes @rendermode="new InteractiveServerRenderMode(prerender: false)" />
     <script src="@Assets["_framework/blazor.web.js"]"></script>
 </body>
 
